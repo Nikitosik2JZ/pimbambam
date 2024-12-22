@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/curier.css">
+    <title>Стать курьером</title>
+</head>
+<body>
+    <div class="mainhead">
+        <div class="logo"><a href=index.html>Тим.Доставка</a></div>
+        <div class="aboutus"><a href="about.html">О нас</a></div>
+        <div class="uslugi"><a href="uslugi.html">Услуги</a></div>
+    </div>
+    <div class="container">
+        <header>
+          <h1>Стань курьером в <span class="company-name">Тим.Доставка</span>!</h1>
+        </header>
+        <section class="why-choose-us">
+          <h2>Почему выбирают нас?</h2>
+          <ul>
+            <li><strong>Гибкий график:</strong> Работай тогда, когда удобно тебе.</li>
+            <li><strong>Стабильный доход:</strong> Еженедельные выплаты и бонусы.</li>
+            <li><strong>Поддержка:</strong> Мы всегда рядом, чтобы помочь.</li>
+            <li><strong>Простое начало:</strong> Минимальные требования и легкий старт.</li>
+            <li><strong>Карьерный рост:</strong> Возможности для развития внутри компании.</li>
+          </ul>
+        </section>
+        <section class="conditions">
+          <h2>Условия работы</h2>
+          <div class="conditions-row">
+            <div class="condition-item">
+              <p><strong>Требования к кандидату:</strong></p>
+              <ul>
+                <li>Возраст от 18 лет.</li>
+                <li>Наличие смартфона.</li>
+                <li>Личный транспорт или готовность работать пешим курьером.</li>
+              </ul>
+            </div>
+            <div class="condition-item">
+              <p><strong>Рабочий процесс:</strong></p>
+              <ul>
+                <li>Сам выбираешь заказы и маршруты.</li>
+                <li>Нет строгих графиков.</li>
+                <li>Доставка легких и компактных заказов.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="conditions-row">
+            <div class="condition-item">
+              <p><strong>Оплата:</strong></p>
+              <ul>
+                <li>Ежедневная или еженедельная выплата.</li>
+                <li>Прозрачная система расчета.</li>
+                <li>Бонусы за выполнение большого количества заказов.</li>
+              </ul>
+            </div>
+            <div class="condition-item">
+              <p><strong>Поддержка:</strong></p>
+              <ul>
+                <li>Постоянная связь с координаторами.</li>
+                <li>Инструктаж для новых курьеров.</li>
+                <li>Доступ к выгодным предложениям для партнеров.</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="cta">
+          <h2>Начать просто!</h2>
+          <p>Заполни анкету на сайте, пройди инструктаж, и начни зарабатывать уже завтра!</p>
+          <button class="cta-button" id="openFormButton">Заполнить анкету</button>
+        </section>
+      </div>
+
+       
+
+
+    <footer>
+        <div class="infoot">
+            <div class="footlogo">Тим.Доставка</div>
+            <div class="copyright">©2024</div>
+            <div class="timeopen">График работы: Работаем круглосуточно без выходных</div>
+            <div class="footuslugi"><a href="uslugi.html">Услуги</a></div>
+            <div class="footaboutus"><a href="about.html">О нас</a></div>
+            <div class="footcurier"><a href="сurier.html">Стать курьером</a></div>
+        </div>
+    </footer>
+    
+
+
+    <div class="form-popup" id="formPopup">
+        <div class="form-container">
+          <h2>Анкета</h2>
+          <form id="applicationForm">
+            <label for="name">Имя:</label>
+            <input type="text" id="name" name="name" placeholder="Введите ваше имя" required>
+            
+            <label for="birthdate">Дата рождения:</label>
+            <input type="date" id="birthdate" name="birthdate" required>
+            
+            <label for="address">Адрес проживания:</label>
+            <input type="text" id="address" name="address" placeholder="Введите ваш адрес" required>
+            
+            <button type="submit" class="form-submit">Отправить</button>
+            <button type="button" class="form-close" id="closeFormButton">Закрыть</button>
+          </form>
+          <script src="js/curier.js"></script> 
+        </div>
+      </div>
+      
+      <button class="scrollToTop" id="scrollToTopBtn">&uarr;</button>
+      <script src="js/buttomUp.js"></script>
+</body>
+</html>

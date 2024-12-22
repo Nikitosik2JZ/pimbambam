@@ -1,0 +1,245 @@
+body{
+    background-color: #101314;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    
+}
+.mainhead{
+    position: absolute;
+    width: 1120px;
+    height: 200px;
+    top: 50px;
+
+    background: #101314;
+}
+.logo{
+    position: absolute;
+    width: 413px;
+    height: 100px;
+    left: 22px;
+    top: calc(50% - 100px/2);
+
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 57px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.aboutus{
+position: absolute;
+width: 200px;
+height: 46px;
+right: 0px;
+top: calc(50% - 46px/2 + 5px);
+
+font-family: 'Times New Roman';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 41px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+}
+.uslugi{
+
+
+position: absolute;
+width: 200px;
+height: 46px;
+right: 200px;
+top: calc(50% - 46px/2 + 5px);
+
+font-family: 'Times New Roman';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 41px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color:#FFFFFF;
+
+
+}
+footer{
+display: flex;
+justify-content: center;
+
+position: absolute;
+width: 100%;
+height: 400px;
+
+
+background: #FFFFFF;
+
+}
+.infoot{
+    position: absolute;
+    width: 1120px;
+    height: 100%;
+}
+.footlogo{
+
+
+position: absolute;
+width: 413px;
+height: 100px;
+
+top: 50px;
+
+font-family: 'Times New Roman';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 74px;
+display: flex;
+align-items: flex-end;
+text-align: center;
+
+color: #000000;
+}
+
+.copyright{
+
+
+position: absolute;
+width: 100px;
+height: 30px;
+left: 310px;
+top: 140px;
+
+font-family: 'Times New Roman';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+display: flex;
+align-items: flex-end;
+text-align: center;
+
+color: #000000;
+}
+
+.timeopen{
+
+
+position: absolute;
+width: 220px;
+height: 160px;
+left: 517px;
+top: 50px;
+
+font-family: 'Times New Roman';
+font-style: normal;
+
+font-size: 32px;
+
+display: flex;
+align-items: flex-end;
+
+color: #000000;
+}
+
+.footuslugi{
+
+
+position: absolute;
+width: 200px;
+height: 100px;
+left: 866px;
+top: 52px;
+
+font-family: 'Times New Roman';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 46px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+
+.footaboutus{
+
+
+position: absolute;
+width: 200px;
+height: 100px;
+left: 866px;
+top: 142px;
+
+font-family: 'Times New Roman';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 46px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+.footcurier{
+    
+position: absolute;
+width: 300px;
+height: 100px;
+left: 866px;
+top: 232px;
+
+font-family: 'Times New Roman';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 46px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+a:visited{
+    text-decoration: none;
+    color:currentColor;
+}
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+a:hover {
+    text-decoration:underline;
+  }
+  
+.scrollToTop {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: none;
+    width: 50px;
+    height: 50px;
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 24px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.scrollToTop:hover {
+    background-color: #3700b3;
+}

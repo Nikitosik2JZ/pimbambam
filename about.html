@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/about.css">
+    <title>О нас</title>
+</head>
+<body>
+    <div class="mainhead">
+        <div class="logo"><a href=index.html>Тим.Доставка</a></div>
+        <div class="aboutus"><a href="about.html">О нас</a></div>
+        <div class="uslugi"><a href="uslugi.html">Услуги</a></div>
+    </div>
+    
+      <div class="container">
+        <header>
+          <h1>Добро пожаловать на Тим.Доставка!</h1>
+        </header>
+    
+        <section class="about">
+          <h2>О нас</h2>
+          <p>Тим.Доставка — это команда профессионалов, которая предоставляет услуги доставки товаров и документов по городу и региону. Наша миссия – сделать процесс доставки быстрым, надежным и удобным для наших клиентов.</p>
+    
+          <p>Мы понимаем, что время — это деньги. Поэтому мы предлагаем различные варианты доставки, чтобы удовлетворить все ваши потребности. Наша команда использует современное оборудование и технологии, что позволяет отслеживать ваши отправления в режиме реального времени.</p>
+    
+          <h3>Наши ценности:</h3>
+          <ul>
+            <li><strong>Клиентоориентированность:</strong> Мы внимательно слушаем наших клиентов и стремимся превзойти их ожидания.</li>
+            <li><strong>Надежность:</strong> Вы можете доверять нам, и мы гарантируем безопасность ваших отправлений.</li>
+            <li><strong>Быстрота:</strong> Мы ценим ваше время и обеспечиваем минимальные сроки доставки.</li>
+          </ul>
+    
+          <p>Мы постоянно развиваемся и внимательно следим за тенденциями в области логистики, чтобы предлагать нашим клиентам лучшие решения.</p>
+    
+          <p><strong>Спасибо, что выбрали Тим.Доставка.</strong> Мы рады быть частью вашей жизни и обещаем делать все возможное, чтобы ваша доставка была безупречной!</p>
+          <button id="openModal" class="feedbackbtn">Оставить отзыв</button>
+        </section>
+    
+        <section class="contact">
+          <h2>Связаться с нами</h2>
+          <p>Если у вас есть вопросы или вам нужно узнать подробности, свяжитесь с нами через следующие каналы:</p>
+    
+          <div class="social-links">
+            <a href="https://t.me/bubugagajo" target="_blank">
+              <img src="img/telegram.png" alt="Telegram" class="social-icon"> 
+              Напишите нам в Telegram
+            </a>
+            <a href="https://vk.com/turbinaebanaya" target="_blank">
+              <img src="img/vk.png" alt="ВКонтакте" class="social-icon"> 
+              Подпишитесь на нас ВКонтакте
+            </a>
+          </div>
+    
+          <h3>Наш номер телефона:</h3>
+          <p><strong>+7 (966) 142-95-03</strong></p>
+          
+          
+        </section>
+      </div>
+
+
+    
+
+
+
+    
+    <footer>
+      <div class="infoot">
+          <div class="footlogo">Тим.Доставка</div>
+          <div class="copyright">©2024</div>
+          <div class="timeopen">График работы: Работаем круглосуточно без выходных</div>
+          <div class="footuslugi"><a href="uslugi.html">Услуги</a></div>
+          <div class="footaboutus"><a href="about.html">О нас</a></div>
+          <div class="footcurier"><a href="curier.html">Стать курьером</a></div>
+      </div>
+  </footer>
+    <div class="modal" id="modal">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2>Оставить отзыв</h2>
+            <span class="close" id="closeModal">&times;</span>
+          </div>
+          <form id="reviewForm">
+            <div class="stars" id="stars">
+              <span class="star" data-value="1">&#9733;</span>
+              <span class="star" data-value="2">&#9733;</span>
+              <span class="star" data-value="3">&#9733;</span>
+              <span class="star" data-value="4">&#9733;</span>
+              <span class="star" data-value="5">&#9733;</span>
+            </div>
+            <input type="text" id="name" placeholder="Ваше имя" required style="width: 80%; padding: 10px; margin-bottom: 10px;">
+            <textarea id="review" placeholder="Ваш отзыв" required style="width: 80%; padding: 10px; margin-bottom: 10px; height: 80px;"></textarea>
+            <div class="modal-footer">
+              <button type="button" class="cancel" id="cancel">Отмена</button>
+              <button type="submit" class="submit">Отправить</button>
+            </div>
+          </form>
+        </div>
+    </div>
+    <script src="js/feedback.js"></script>
+    
+    <button class="scrollToTop" id="scrollToTopBtn">&uarr;</button>
+    <script src="js/buttomUp.js"></script>
+</body>
+</html>

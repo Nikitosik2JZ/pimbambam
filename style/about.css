@@ -1,0 +1,178 @@
+
+.container {
+  width: 1080px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  position: absolute;
+  top:250px;
+  border-radius: 25px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 2.5em;
+  color: #000;
+}
+
+/* Раздел "О нас" */
+.about h2 {
+  color: #000;
+  border-bottom: 2px solid #27ae60;
+  padding-bottom: 10px;
+}
+
+.about p, .about ul {
+  color: #333;
+  font-size: 1.1em;
+}
+
+.about ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.about ul li {
+  margin-bottom: 10px;
+}
+
+.about ul li::before {
+  content: "•";
+  color: #27ae60;
+  font-size: 1.5em;
+  margin-right: 10px;
+}
+
+/* Раздел "Контакты" */
+.contact h2 {
+  color: #000;
+  border-bottom: 2px solid #27ae60;
+  padding-bottom: 10px;
+  margin-top: 30px;
+}
+
+.contact p {
+  color: #333;
+  font-size: 1.1em;
+}
+
+.social-links {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-links a {
+  color: #000;
+  text-decoration: none;
+  font-size: 1.2em;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.social-links a:hover {
+  color: #27ae60;
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.contact h3 {
+  margin-top: 30px;
+  font-size: 1.2em;
+  color: #000;
+}
+
+
+footer{
+    top:1300px;
+}
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+  }
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+.modal-header h2 {
+    margin: 0;
+  }
+.close {
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+  }
+.stars {
+    display: flex;
+    gap: 5px;
+    margin: 10px 0;
+  }
+.star {
+    font-size: 25px;
+    cursor: pointer;
+    color: lightgray;
+  }
+.star.active {
+    color: gold;
+  }
+.modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+button.submit {
+    background-color: #4CAF50;
+    color: white;
+  }
+button.cancel {
+    background-color: #f44336;
+    color: white;
+  }
+.feedbackbtn{
+  background-color: #27ae60;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.feedbackbtn:hover{
+    background-color: #349237;
+}
